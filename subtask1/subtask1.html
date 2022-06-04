@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <title>products</title>
+</head>
+<style>
+    #first,
+    #head {
+        background-color: gainsboro;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+    }
+
+    #second {
+        font-size: 20px;
+        font-family: 'Electrolize', sans-serif;
+        background-color: antiquewhite;
+    }
+</style>
+
+<body>
+    <header>
+        <div id="head">
+            <p>siddharth kashyap</p>
+
+        </div>
+    </header>
+    <div id="first">
+        <form action="form.php">
+            <h2 id="s">catalog</h2>
+            <input type="text" placeholder="search here" /><br />
+        </form>
+    </div>
+    <main>
+        <div id="second">
+            <h3>Product Listing</h3>
+            <div class="products"> </div>
+            <script src="script.js"></script>
+        </div>
+        <ul id="productsList"></ul>
+    </main>
+</body>
+
+</html>

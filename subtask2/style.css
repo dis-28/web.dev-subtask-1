@@ -1,0 +1,102 @@
+header {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200803/pngtree-calm-orange-and-white-bokeh-light-background-image_379745.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgb(147, 137, 137);
+  border-radius: 8px;
+  height: 30vh;
+  padding-bottom: 30px;
+  border-bottom-left-radius: none;
+}
+
+main {
+  background-color: rgb(169, 187, 132);
+}
+
+.intro {
+  border: 1px solid rgb(22, 21, 21);
+  background-color: azure;
+  position: relative;
+  float: left;
+  height: fit-content;
+  width: 32vw;
+  padding-left: 5px;
+  margin-left: 34vw;
+  ;
+  padding-left: 12px;
+  border-radius: 14px;
+  padding-bottom: 5px;
+
+}
+
+#y {
+  margin-left: 37vw;
+}
+
+a {
+  /* border: 1px solid blue; */
+  height: 20px;
+  align-items: center;
+  /* margin: 5px; */
+  margin-left: 5px;
+
+}
+
+.contact {
+  padding: 12px 2px 2px 2px;
+  background-color: beige;
+  position: relative;
+  height: 150px;
+  /* float: right; */
+
+
+}
+
+#contact {
+  margin-left: 100px;
+  margin-left: 10px;
+
+
+}
+
+.b {
+  position: relative;
+  float: left;
+  text-decoration: none;
+
+
+}
+
+.s {
+  font-style: oblique;
+  font-size: 5vw;
+
+
+}
+
+#phone {
+  text-decoration: none;
+}
+
+.img {
+  position: relative;
+  float: right;
+  /* margin-bottom: 4; */
+  margin-right: 10vw;
+  /* margin */
+  width: 14vw;
+  size-adjust: auto;
+  overflow: hidden;
+
+  /* border: 5px dotted rgb(60, 55, 55); */
+}
+
+main {
+  height: 60vh;
+  border: 1px solid red;
+  border-radius: 12px;
+  padding: 5px 10px 12px 18px;
+
+
+
+}
